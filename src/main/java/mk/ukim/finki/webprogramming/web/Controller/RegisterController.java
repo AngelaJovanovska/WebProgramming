@@ -1,9 +1,8 @@
-package mk.ukim.finki.webprogramiranje.web.Controller;
+package mk.ukim.finki.webprogramming.web.Controller;
 
-import mk.ukim.finki.webprogramiranje.Service.AuthService;
-import mk.ukim.finki.webprogramiranje.model.exceptions.InvalidArgumentException;
-import mk.ukim.finki.webprogramiranje.model.exceptions.PasswordNotMatchException;
-import org.springframework.boot.context.metrics.buffering.StartupTimeline;
+import mk.ukim.finki.webprogramming.service.AuthService;
+import mk.ukim.finki.webprogramming.model.exceptions.InvalidArgumentException;
+import mk.ukim.finki.webprogramming.model.exceptions.PasswordNotMatchException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

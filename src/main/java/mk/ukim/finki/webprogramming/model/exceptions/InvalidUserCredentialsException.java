@@ -1,6 +1,4 @@
-package mk.ukim.finki.webprogramiranje.model.exceptions;
-
-import mk.ukim.finki.webprogramiranje.repository.InMemoryUserRepository;
+package mk.ukim.finki.webprogramming.model.exceptions;
 
 public class InvalidUserCredentialsException extends RuntimeException{
     public InvalidUserCredentialsException(){

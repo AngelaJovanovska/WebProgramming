@@ -1,7 +1,6 @@
-package mk.ukim.finki.webprogramiranje.web.servlet;
+package mk.ukim.finki.webprogramming.web.servlet;
 
-import jdk.jfr.ContentType;
-import mk.ukim.finki.webprogramiranje.Service.CategoryService;
+import mk.ukim.finki.webprogramming.service.CategoryService;
 import org.thymeleaf.context.WebContext;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 

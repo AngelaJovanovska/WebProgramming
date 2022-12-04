@@ -1,4 +1,4 @@
-package mk.ukim.finki.webprogramiranje.web.Controller;
+package mk.ukim.finki.webprogramming.web.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

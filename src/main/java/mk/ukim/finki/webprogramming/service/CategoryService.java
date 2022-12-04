@@ -1,6 +1,7 @@
-package mk.ukim.finki.webprogramiranje.Service;
+package mk.ukim.finki.webprogramming.service;
 
-import mk.ukim.finki.webprogramiranje.model.Category;
+
+import mk.ukim.finki.webprogramming.model.Category;
 
 import java.util.List;
 

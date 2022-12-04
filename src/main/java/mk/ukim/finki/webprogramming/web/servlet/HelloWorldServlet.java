@@ -1,7 +1,4 @@
-package mk.ukim.finki.webprogramiranje.web.servlet;
-
-import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.stereotype.Controller;
+package mk.ukim.finki.webprogramming.web.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

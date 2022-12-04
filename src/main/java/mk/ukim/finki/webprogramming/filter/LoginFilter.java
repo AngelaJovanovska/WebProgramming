@@ -1,7 +1,6 @@
-package mk.ukim.finki.webprogramiranje.web.filter;
+package mk.ukim.finki.webprogramming.filter;
 
-import mk.ukim.finki.webprogramiranje.model.User;
-import org.springframework.context.annotation.ComponentScan;
+import mk.ukim.finki.webprogramming.model.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

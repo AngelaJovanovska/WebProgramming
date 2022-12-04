@@ -1,6 +1,7 @@
-package mk.ukim.finki.webprogramiranje.Service;
+package mk.ukim.finki.webprogramming.service;
 
-import mk.ukim.finki.webprogramiranje.model.User;
+
+import mk.ukim.finki.webprogramming.model.User;
 
 public interface AuthService {
     User login(String username, String password);

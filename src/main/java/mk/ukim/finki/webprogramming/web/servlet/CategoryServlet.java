@@ -1,6 +1,6 @@
-package mk.ukim.finki.webprogramiranje.web.servlet;
+package mk.ukim.finki.webprogramming.web.servlet;
 
-import mk.ukim.finki.webprogramiranje.Service.CategoryService;
+import mk.ukim.finki.webprogramming.service.CategoryService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

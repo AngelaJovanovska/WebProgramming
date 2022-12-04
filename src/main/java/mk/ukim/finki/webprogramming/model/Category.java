@@ -1,4 +1,4 @@
-package mk.ukim.finki.webprogramiranje.model;
+package mk.ukim.finki.webprogramming.model;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package mk.ukim.finki.webprogramiranje.model.exceptions;
+package mk.ukim.finki.webprogramming.model.exceptions;
 
 public class PasswordNotMatchException extends RuntimeException{
     public PasswordNotMatchException(){

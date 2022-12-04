@@ -1,8 +1,8 @@
-package mk.ukim.finki.webprogramiranje.repository;
+package mk.ukim.finki.webprogramming.repository;
 
 
-import mk.ukim.finki.webprogramiranje.bootstrap.DataHolder;
-import mk.ukim.finki.webprogramiranje.model.Category;
+import mk.ukim.finki.webprogramming.bootstrap.DataHolder;
+import mk.ukim.finki.webprogramming.model.Category;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -25,6 +25,10 @@ public class InMemoryCategoryRepository {
 
     public Optional<Category> findByName(String name){
         return DataHolder.categories.stream().filter(r->r.getName().equals(name)).findFirst();
+    }
+    public Optional<Category> findById(Long id){
+        return DataHolder.categories.stream().filter(r->r.getId().equals(id)).findFirst();
+
     }
 
     public List<Category> search(String text){

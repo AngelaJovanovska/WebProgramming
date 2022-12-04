@@ -1,4 +1,4 @@
-package mk.ukim.finki.webprogramiranje.model;
+package mk.ukim.finki.webprogramming.model;
 
 import lombok.Data;
 
@@ -9,14 +9,14 @@ public class Product {
     private Double price;
     private Integer quantity;
     private Category category;
-    private Manufactorer manufactorer;
+    private Manufacturer manufacturer;
 
-    public Product(String name, Double price, Integer quantity, Category category, Manufactorer manufactorer) {
+    public Product(String name, Double price, Integer quantity, Category category, Manufacturer manufacturer) {
         this.id = (long) (Math.random()*1000);
         this.name = name;
         this.price = price;
         this.quantity = quantity;
         this.category = category;
-        this.manufactorer = manufactorer;
+        this.manufacturer = manufacturer;
     }
 }

@@ -1,8 +1,9 @@
-package mk.ukim.finki.webprogramiranje.Service.impl;
+package mk.ukim.finki.webprogramming.service.impl;
 
-import mk.ukim.finki.webprogramiranje.Service.CategoryService;
-import mk.ukim.finki.webprogramiranje.model.Category;
-import mk.ukim.finki.webprogramiranje.repository.InMemoryCategoryRepository;
+
+import mk.ukim.finki.webprogramming.service.CategoryService;
+import mk.ukim.finki.webprogramming.model.Category;
+import mk.ukim.finki.webprogramming.repository.InMemoryCategoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

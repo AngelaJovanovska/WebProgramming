@@ -1,8 +1,8 @@
-package mk.ukim.finki.webprogramiranje.web.servlet;
+package mk.ukim.finki.webprogramming.web.servlet;
 
-import mk.ukim.finki.webprogramiranje.Service.AuthService;
-import mk.ukim.finki.webprogramiranje.model.User;
-import mk.ukim.finki.webprogramiranje.model.exceptions.InvalidUserCredentialsException;
+import mk.ukim.finki.webprogramming.service.AuthService;
+import mk.ukim.finki.webprogramming.model.User;
+import mk.ukim.finki.webprogramming.model.exceptions.InvalidUserCredentialsException;
 import org.thymeleaf.context.WebContext;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 

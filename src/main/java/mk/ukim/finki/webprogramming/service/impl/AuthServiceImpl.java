@@ -1,11 +1,12 @@
-package mk.ukim.finki.webprogramiranje.Service.impl;
+package mk.ukim.finki.webprogramming.service.impl;
 
-import mk.ukim.finki.webprogramiranje.Service.AuthService;
-import mk.ukim.finki.webprogramiranje.model.User;
-import mk.ukim.finki.webprogramiranje.model.exceptions.InvalidArgumentException;
-import mk.ukim.finki.webprogramiranje.model.exceptions.InvalidUserCredentialsException;
-import mk.ukim.finki.webprogramiranje.model.exceptions.PasswordNotMatchException;
-import mk.ukim.finki.webprogramiranje.repository.InMemoryUserRepository;
+
+import mk.ukim.finki.webprogramming.service.AuthService;
+import mk.ukim.finki.webprogramming.model.User;
+import mk.ukim.finki.webprogramming.model.exceptions.InvalidArgumentException;
+import mk.ukim.finki.webprogramming.model.exceptions.InvalidUserCredentialsException;
+import mk.ukim.finki.webprogramming.model.exceptions.PasswordNotMatchException;
+import mk.ukim.finki.webprogramming.repository.InMemoryUserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
